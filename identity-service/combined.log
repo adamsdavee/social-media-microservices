@@ -1,0 +1,9 @@
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2026-01-23T14:51:55.715Z"}
+{"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2026-01-23T14:52:06.501Z"}
+{"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2026-01-23T14:52:06.505Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2026-01-23T14:52:51.992Z"}
+{"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.md6oqwh.mongodb.net","level":"error","message":"Unhandled Rejection at","service":"identity-service","syscall":"querySrv","timestamp":"2026-01-23T14:53:38.303Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2026-01-23T14:55:09.743Z"}
+{"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.md6oqwh.mongodb.net","level":"error","message":"Unhandled Rejection at","service":"identity-service","syscall":"querySrv","timestamp":"2026-01-23T14:55:51.015Z"}
+{"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2026-01-23T14:56:30.001Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-23T14:56:42.973Z"}
