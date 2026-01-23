@@ -3,6 +3,6 @@ const { registerUser } = require("../controllers/identity.controller")
 
 const identityRouter = express.Router()
 
-identityRouter.post("/", registerUser)
+identityRouter.post("/register", registerUser)
 
 module.exports = identityRouter

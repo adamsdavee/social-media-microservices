@@ -9,7 +9,7 @@ const generateTokens = async (user) => {
          userId: user._id,
          username: user.username,
       },
-      process.env.JWY_SECRET,
+      process.env.JWT_SECRET,
       {
          expiresIn: "60m",
       },
@@ -20,8 +20,8 @@ const generateTokens = async (user) => {
    expiresAt.setDate(expiresAt.getDate() + 7) // expires in 7 days
 
    await RefreshToken.create({
-      token: accessToken,
-      userId: user._id,
+      token: refreshToken,
+      user: user._id,
       expiredAt: expiresAt,
    })
 

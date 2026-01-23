@@ -2,3 +2,13 @@
 {"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","level":"error","message":"Unhandled Rejection at","service":"identity-service","timestamp":"2026-01-23T14:52:06.505Z"}
 {"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.md6oqwh.mongodb.net","level":"error","message":"Unhandled Rejection at","service":"identity-service","syscall":"querySrv","timestamp":"2026-01-23T14:53:38.303Z"}
 {"0":"r","1":"e","2":"a","3":"a","4":"s","5":"o","6":"n","7":":","8":" ","code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.md6oqwh.mongodb.net","level":"error","message":"Unhandled Rejection at","service":"identity-service","syscall":"querySrv","timestamp":"2026-01-23T14:55:51.015Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:04:51.775Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:05:55.530Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:07:49.448Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:10:12.566Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:11:33.488Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:13:12.076Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:15:26.535Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:17:15.504Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:18:10.457Z"}
+{"level":"error","message":"Registration error occured!","service":"identity-service","timestamp":"2026-01-23T15:19:15.761Z"}

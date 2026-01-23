@@ -72,9 +72,9 @@ const sensitiveEndpointsLimiter = rateLimit({
 })
 
 // Apply this sensitiveEndpointsLimiter to our routes
-app.use("/api/auth/register", sensitiveEndpointsLimiter)
+app.use("/api/auth", sensitiveEndpointsLimiter)
 
-app.use("/api/auth/register", identityRouter)
+app.use("/api/auth", identityRouter)
 
 app.get("/", (req, res) => {
    res.send("It is working!")
