@@ -1,10 +1,11 @@
 const User = require("../models/user.model")
 const logger = require("../utils/logger")
 const { validateRegistration } = require("../utils/validation")
+const { generateTokens } = require("../utils/generateToken")
 
 // user registration
 
-const registerUseer = async (req, res) => {
+const registerUser = async (req, res) => {
    logger.info("Registration endpoint hit...")
 
    try {
@@ -42,7 +43,22 @@ const registerUseer = async (req, res) => {
       await user.save()
 
       logger.info("User saved successfully", user._id)
-   } catch (e) {}
+
+      const { accessToken, refreshToken } = await generateTokens(user)
+
+      res.status(201).json({
+         success: true,
+         message: "User registered successfully!",
+         accessToken,
+         refreshToken,
+      })
+   } catch (e) {
+      logger.error("Registration error occured!")
+      res.status(500).json({
+         success: false,
+         message: "Internal server error",
+      })
+   }
 }
 
 // user login
@@ -50,3 +66,5 @@ const registerUseer = async (req, res) => {
 // refresh token
 
 // logout
+
+module.exports = { registerUser }
