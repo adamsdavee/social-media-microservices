@@ -76,3 +76,6 @@
 {"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:30:36.813Z"}
 {"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:30:36.813Z"}
 {"level":"info","message":"Response received from Identity-service: 400","service":"identity-service","timestamp":"2026-01-24T12:30:37.039Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"identity-service","timestamp":"2026-01-24T12:54:25.244Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:54:25.245Z"}
+{"level":"info","message":"Response received from Identity-service: 200","service":"identity-service","timestamp":"2026-01-24T12:54:25.830Z"}
