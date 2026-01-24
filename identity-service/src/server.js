@@ -90,4 +90,5 @@ app.listen(PORT, () => {
 
 process.on("unhandledRejection", (reason, promise) => {
    logger.error("Unhandled Rejection at", promise, "reaason: ", reason)
+   redisClient.quit()
 })

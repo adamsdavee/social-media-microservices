@@ -1,0 +1,72 @@
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:09:01.501Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:09:01.505Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:09:01.505Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:10:12.958Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:10:12.961Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:10:12.961Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:10:19.381Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:10:19.383Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:10:19.384Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:10:33.700Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:10:33.703Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:10:33.704Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:15:37.648Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-01-24T12:15:37.648Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:16:57.232Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:16:57.236Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:16:57.236Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:17:12.781Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:17:12.784Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:17:12.785Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:17:33.252Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:17:33.255Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:17:33.256Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:17:43.753Z"}
+{"level":"info","message":"Request body: undefined","service":"identity-service","timestamp":"2026-01-24T12:17:43.754Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:18:47.656Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:18:47.660Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:18:47.660Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:18:52.808Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:18:52.809Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:18:54.977Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:18:54.977Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:19:50.633Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:19:50.636Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:19:50.637Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:19:54.397Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:19:54.398Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:20:15.988Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:20:15.991Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:20:15.992Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:20:19.625Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:20:19.625Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2026-01-24T12:20:21.171Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:20:21.171Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:22:34.876Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:22:34.876Z"}
+{"level":"error","message":"TypeError: Cannot set properties of undefined (setting 'Content-Type')\n    at proxyReqBodyDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:70:47)\n    at decorateProxyReqBody (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqBody.js:18:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"identity-service","timestamp":"2026-01-24T12:22:34.878Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:25:52.240Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:25:52.244Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:25:52.244Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:26:03.605Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:26:03.605Z"}
+{"level":"info","message":"Response received from Identity-service: 201","service":"identity-service","timestamp":"2026-01-24T12:26:04.330Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:26:59.516Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:26:59.519Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:26:59.519Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:27:13.165Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:27:13.166Z"}
+{"level":"info","message":"Response received from Identity-service: 201","service":"identity-service","timestamp":"2026-01-24T12:27:13.875Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:28:08.466Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:28:08.469Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:28:08.469Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:28:17.455Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:28:17.456Z"}
+{"level":"info","message":"Response received from Identity-service: 201","service":"identity-service","timestamp":"2026-01-24T12:28:18.175Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:28:41.144Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:28:41.148Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:28:41.149Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:28:51.620Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:28:51.620Z"}
+{"level":"info","message":"Response received from Identity-service: 201","service":"identity-service","timestamp":"2026-01-24T12:28:52.337Z"}
+{"level":"error","message":"Error: userResDecorator should return string or buffer as data\n    at verifyBuffer (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:34:19)\n    at C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:74:9\n    at new Promise (<anonymous>)\n    at C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:72:14\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"identity-service","timestamp":"2026-01-24T12:28:52.340Z"}
