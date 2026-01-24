@@ -70,3 +70,9 @@
 {"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:28:51.620Z"}
 {"level":"info","message":"Response received from Identity-service: 201","service":"identity-service","timestamp":"2026-01-24T12:28:52.337Z"}
 {"level":"error","message":"Error: userResDecorator should return string or buffer as data\n    at verifyBuffer (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:34:19)\n    at C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:74:9\n    at new Promise (<anonymous>)\n    at C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateUserRes.js:72:14\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"identity-service","timestamp":"2026-01-24T12:28:52.340Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"identity-service","timestamp":"2026-01-24T12:29:16.577Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"identity-service","timestamp":"2026-01-24T12:29:16.581Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"identity-service","timestamp":"2026-01-24T12:29:16.582Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"identity-service","timestamp":"2026-01-24T12:30:36.813Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-01-24T12:30:36.813Z"}
+{"level":"info","message":"Response received from Identity-service: 400","service":"identity-service","timestamp":"2026-01-24T12:30:37.039Z"}
