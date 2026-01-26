@@ -1,0 +1,2 @@
+{"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-01-26T11:46:50.553Z"}
+{"level":"error","message":"Unhandled rejection at [object Promise] reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"post-service","timestamp":"2026-01-26T11:46:50.557Z"}

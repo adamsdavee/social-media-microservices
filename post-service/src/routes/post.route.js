@@ -1,6 +1,6 @@
 const express = require("express")
 const { createPost } = require("../controllers/post.controller")
-const { authenticateRequest } = require("../middleware/auth.middleware")
+const { authenticateRequest } = require("../middlewares/auth.middleware")
 
 const postRouter = express.Router()
 
