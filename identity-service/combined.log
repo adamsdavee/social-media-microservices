@@ -162,3 +162,8 @@
 {"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-24T13:26:28.029Z"}
 {"level":"info","message":"Identity service running on port: 3001","service":"identity-service","timestamp":"2026-01-24T13:27:08.626Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-24T13:27:11.336Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-24T18:50:42.561Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-24T20:14:55.216Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-25T14:23:15.208Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-25T17:03:34.135Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-01-25T20:38:39.931Z"}
