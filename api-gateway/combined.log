@@ -428,3 +428,63 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2026-02-05T08:48:40.309Z"}
 {"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T08:48:40.309Z"}
 {"level":"info","message":"Response received from Media-service: 201","service":"api-gateway","timestamp":"2026-02-05T08:48:42.855Z"}
+{"level":"info","message":"Received GET request to /v1/post/get-post","service":"api-gateway","timestamp":"2026-02-05T11:01:36.181Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-02-05T11:01:36.186Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2026-02-05T11:01:36.195Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2026-02-05T11:02:05.079Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-02-05T11:02:05.079Z"}
+{"level":"info","message":"Response received from Identity-service: 200","service":"api-gateway","timestamp":"2026-02-05T11:02:07.217Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:02:26.053Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:02:26.054Z"}
+{"level":"warn","message":"Invalid token!","service":"api-gateway","timestamp":"2026-02-05T11:02:26.054Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:02:34.047Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:02:34.048Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:116:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:02:34.056Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:02:42.671Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:02:42.671Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:116:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:02:42.672Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:02:50.177Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:02:50.177Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:116:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:02:50.178Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:03:00.707Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:03:00.708Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:116:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:03:00.710Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:04:13.405Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:04:13.405Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-02-05T11:04:13.414Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:04:15.225Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:04:15.225Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-02-05T11:04:15.230Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:04:16.625Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:04:16.625Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-02-05T11:04:16.628Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:04:18.102Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:04:18.103Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","service":"api-gateway","timestamp":"2026-02-05T11:04:18.106Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:04:30.997Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:04:30.998Z"}
+{"level":"info","message":"Response received from Media-service: 200","service":"api-gateway","timestamp":"2026-02-05T11:04:31.278Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-05T11:05:58.656Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"api-gateway","timestamp":"2026-02-05T11:05:58.660Z"}
+{"level":"info","message":"Post Service is running on http://localhost:3002","service":"api-gateway","timestamp":"2026-02-05T11:05:58.660Z"}
+{"level":"info","message":"Media Service is running on http://localhost:3003","service":"api-gateway","timestamp":"2026-02-05T11:05:58.660Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-05T11:05:58.661Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-05T11:06:31.215Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"api-gateway","timestamp":"2026-02-05T11:06:31.218Z"}
+{"level":"info","message":"Post Service is running on http://localhost:3002","service":"api-gateway","timestamp":"2026-02-05T11:06:31.219Z"}
+{"level":"info","message":"Media Service is running on http://localhost:3003","service":"api-gateway","timestamp":"2026-02-05T11:06:31.219Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-05T11:06:31.219Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:06:42.911Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:06:42.911Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:118:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:06:42.934Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-05T11:07:55.996Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"api-gateway","timestamp":"2026-02-05T11:07:55.999Z"}
+{"level":"info","message":"Post Service is running on http://localhost:3002","service":"api-gateway","timestamp":"2026-02-05T11:07:55.999Z"}
+{"level":"info","message":"Media Service is running on http://localhost:3003","service":"api-gateway","timestamp":"2026-02-05T11:07:56.000Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-05T11:07:56.000Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:08:00.770Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:08:00.771Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:118:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:08:00.779Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2026-02-05T11:09:10.232Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:09:10.234Z"}
+{"level":"info","message":"Response received from Media-service: 201","service":"api-gateway","timestamp":"2026-02-05T11:09:12.871Z"}

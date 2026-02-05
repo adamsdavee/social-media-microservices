@@ -51,4 +51,17 @@ const uploadMedia = async (req, res) => {
    }
 }
 
-module.exports = { uploadMedia }
+const getAllMedias = async (req, res) => {
+   try {
+      const results = await Media.find({})
+
+      res.json(results)
+   } catch (error) {
+      logger.error("Error in getting media from cloudinary")
+      res.status(500).json({
+         success: false,
+         message: "Internal server error in getting media from cloudinary",
+      })
+   }
+}
+module.exports = { uploadMedia, getAllMedias }

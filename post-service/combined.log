@@ -250,3 +250,13 @@
 {"level":"info","message":"Connected to Rabbitmq","service":"post-service","timestamp":"2026-02-05T09:51:01.743Z"}
 {"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-02-05T09:51:01.748Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T09:51:03.712Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T10:18:15.945Z"}
+{"level":"error","message":"Unhandled rejection at [object Promise] reason: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.md6oqwh.mongodb.net","service":"post-service","timestamp":"2026-02-05T13:24:51.415Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"post-service","timestamp":"2026-02-05T13:24:51.482Z"}
+{"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-02-05T13:24:51.490Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"post-service","timestamp":"2026-02-05T14:08:24.797Z"}
+{"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-02-05T14:08:24.802Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T14:08:31.420Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"post-service","timestamp":"2026-02-05T14:08:40.861Z"}
+{"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-02-05T14:08:40.867Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T14:08:42.889Z"}

@@ -87,3 +87,32 @@
 {"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:18:15.905Z"}
 {"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T10:55:07.993Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:55:12.383Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T10:56:02.061Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:56:04.131Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T10:59:10.591Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:59:15.182Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T10:59:17.016Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:59:19.164Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T11:04:27.709Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T11:04:30.077Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2026-02-05T11:04:31.028Z"}
+{"level":"info","message":"Request body: [object Object]","service":"media-service","timestamp":"2026-02-05T11:04:31.028Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T11:09:10.247Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T11:09:10.248Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T11:09:10.259Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T11:09:10.260Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T11:09:10.260Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: kmzhzouk0imuoiph08ns","service":"media-service","timestamp":"2026-02-05T11:09:12.556Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2026-02-05T11:17:37.829Z"}
+{"level":"info","message":"Request body: [object Object]","service":"media-service","timestamp":"2026-02-05T11:17:37.830Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T14:04:05.282Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T14:12:38.013Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T14:12:40.129Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T14:42:11.903Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T14:42:17.594Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"media-service","timestamp":"2026-02-05T14:43:15.284Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T14:43:15.293Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T14:43:17.675Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"media-service","timestamp":"2026-02-05T14:44:03.805Z"}
+{"level":"info","message":"Media service running at port: 3003","service":"media-service","timestamp":"2026-02-05T14:44:03.815Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T14:44:05.996Z"}
