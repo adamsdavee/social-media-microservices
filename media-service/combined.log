@@ -82,3 +82,8 @@
 {"level":"info","message":"Cloudinary upload successful. Public Id: e5i8bh67nidb07vwkiyh","service":"media-service","timestamp":"2026-02-05T08:48:42.604Z"}
 {"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:54:04.431Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:54:09.383Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T09:28:49.012Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T09:28:50.960Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:18:15.905Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T10:55:07.993Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T10:55:12.383Z"}

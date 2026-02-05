@@ -10,7 +10,6 @@ cloudinary.config({
 
 const uploadMediaToCloudinary = (file) => {
    return new Promise((resolve, reject) => {
-      console.log(file.buffer)
       const uploadStream = cloudinary.uploader.upload_stream(
          {
             resource_type: "auto",
@@ -20,16 +19,25 @@ const uploadMediaToCloudinary = (file) => {
                logger.error("Error in uploading media to cloudinary")
                reject(error)
             } else {
-               console.log("Hiiii")
                resolve(result)
             }
          },
       )
 
-      console.log("Whoo")
-
       uploadStream.end(file.buffer)
    })
 }
 
-module.exports = { uploadMediaToCloudinary }
+const deleteMediaFromCloudinary = async (publicId) => {
+   try {
+      const result = await cloudinary.uploader.destroy(publicId)
+      logger.info("Media deleted successfully from cloud storage", publicId)
+
+      return result
+   } catch (error) {
+      logger.error("Error deleting media from cloudinary", error)
+      throw error
+   }
+}
+
+module.exports = { uploadMediaToCloudinary, deleteMediaFromCloudinary }
