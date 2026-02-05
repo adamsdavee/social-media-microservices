@@ -217,3 +217,20 @@
 {"level":"info","message":"Received GET request to /api/post/get-post","service":"post-service","timestamp":"2026-02-03T09:18:14.518Z"}
 {"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2026-02-03T09:18:14.518Z"}
 {"level":"info","message":"Get all post endpoint hit...","service":"post-service","timestamp":"2026-02-03T09:18:14.519Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T09:33:27.872Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T10:47:03.975Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T10:52:46.813Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T11:19:22.026Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T14:05:05.170Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T15:19:42.348Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T18:20:38.989Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-03T19:06:41.679Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T09:37:50.072Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T09:38:43.154Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T10:01:19.497Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T11:19:45.618Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T11:42:58.938Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T12:15:05.205Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-04T12:21:33.178Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T06:01:25.297Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-05T07:17:09.708Z"}

@@ -80,3 +80,5 @@
 {"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:48:40.324Z"}
 {"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:48:40.325Z"}
 {"level":"info","message":"Cloudinary upload successful. Public Id: e5i8bh67nidb07vwkiyh","service":"media-service","timestamp":"2026-02-05T08:48:42.604Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:54:04.431Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:54:09.383Z"}

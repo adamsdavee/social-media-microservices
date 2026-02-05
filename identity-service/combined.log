@@ -184,3 +184,26 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-02-03T09:13:55.907Z"}
 {"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-02-03T09:13:55.909Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-02-03T09:13:55.915Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T09:33:27.877Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T10:47:03.973Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T10:52:46.814Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T11:19:22.054Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T14:05:05.171Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T15:19:42.780Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T18:20:39.254Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-03T19:06:41.680Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T09:27:58.304Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T09:37:50.067Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T09:38:31.012Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T09:46:34.669Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T11:19:44.702Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T11:42:21.650Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T11:47:12.400Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T12:15:05.206Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T12:21:32.337Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-04T18:12:48.247Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-05T06:01:25.716Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2026-02-05T07:17:09.754Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2026-02-05T08:23:17.525Z"}
+{"level":"info","message":"Request body: [object Object]","service":"identity-service","timestamp":"2026-02-05T08:23:17.528Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-02-05T08:23:17.544Z"}
