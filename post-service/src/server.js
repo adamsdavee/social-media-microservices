@@ -7,6 +7,7 @@ const cors = require("cors")
 const helmet = require("helmet")
 const logger = require("./utils/logger")
 const Redis = require("ioredis")
+const { connectToRabbitMQ } = require("./utils/rabbitmq")
 
 const app = express()
 const PORT = process.env.PORT || 3002
@@ -45,9 +46,20 @@ app.get("/", (req, res) => {
 
 app.use(errorHandler)
 
-app.listen(PORT, () => {
-   logger.info(`Post service running at port: ${PORT}`)
-})
+async function startServer() {
+   try {
+      await connectToRabbitMQ()
+
+      app.listen(PORT, () => {
+         logger.info(`Post service running at port: ${PORT}`)
+      })
+   } catch (error) {
+      logger.error("Failed to connect to server: ", error)
+      process.exit(1)
+   }
+}
+
+startServer()
 
 process.on("unhandledRejection", (reason, promise) => {
    logger.error(`Unhandled rejection at ${promise} reason: ${reason}`)
