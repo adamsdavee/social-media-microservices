@@ -1,0 +1,1 @@
+{"level":"error","message":"Unhandled rejection at [object Promise] reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"media-service","timestamp":"2026-02-05T08:15:16.141Z"}

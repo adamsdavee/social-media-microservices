@@ -1,0 +1,82 @@
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:15:16.138Z"}
+{"level":"error","message":"Unhandled rejection at [object Promise] reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"media-service","timestamp":"2026-02-05T08:15:16.141Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:16:34.334Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:16:39.539Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:23:46.899Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:23:46.900Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:25:48.565Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:25:50.820Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:25:57.342Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:25:57.342Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:26:57.756Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:26:57.756Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:26:57.759Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2026-02-05T08:26:57.759Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:26:57.760Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:27:45.312Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:27:49.920Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:28:10.596Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:28:12.566Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:28:14.564Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:28:14.565Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:28:14.573Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2026-02-05T08:28:14.573Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:28:14.574Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:28:40.927Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:28:42.994Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:28:43.970Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:28:43.971Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:28:43.979Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2026-02-05T08:28:43.980Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:28:43.980Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:29:54.533Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:29:54.534Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:30:25.597Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:30:27.937Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:31:28.271Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:31:31.385Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:31:31.386Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:31:32.868Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:31:50.726Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:31:50.727Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:32:16.775Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:32:18.774Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:32:24.080Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:32:24.081Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:32:32.118Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:32:32.119Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:32:32.123Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:32:32.123Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:32:32.123Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:35:37.700Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:35:37.701Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:35:37.703Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:35:37.704Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:35:37.704Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:36:06.736Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:36:06.737Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:36:06.738Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:36:06.738Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:36:06.739Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:37:54.853Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:37:59.397Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:38:01.932Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:38:01.933Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:38:01.941Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:38:01.942Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:38:01.943Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:45:28.855Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:45:33.334Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:45:36.822Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:45:36.822Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:45:36.831Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:45:36.832Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:45:36.832Z"}
+{"level":"info","message":"Post service running at port: 3003","service":"media-service","timestamp":"2026-02-05T08:48:35.270Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-05T08:48:39.906Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2026-02-05T08:48:40.314Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2026-02-05T08:48:40.315Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2026-02-05T08:48:40.324Z"}
+{"level":"info","message":"File details: name=photo_5771907086701759885_y.jpg, type=image/jpeg","service":"media-service","timestamp":"2026-02-05T08:48:40.324Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2026-02-05T08:48:40.325Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: e5i8bh67nidb07vwkiyh","service":"media-service","timestamp":"2026-02-05T08:48:42.604Z"}
