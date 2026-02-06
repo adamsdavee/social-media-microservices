@@ -131,6 +131,29 @@ app.use(
    }),
 )
 
+// setting up proxy for search service
+
+app.use(
+   "/v1/search",
+   validateToken,
+   proxy(process.env.SEARCH_SERVICE_URL, {
+      ...proxyOptions,
+      proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+         proxyReqOpts.headers["x-user-id"] = srcReq.user.userId
+         proxyReqOpts.headers["Content-Type"] = "application/json"
+
+         return proxyReqOpts
+      },
+      userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+         logger.info(
+            `Response received from search-service: ${proxyRes.statusCode}`,
+         )
+
+         return proxyResData
+      },
+   }),
+)
+
 app.use(errorHandler)
 
 app.listen(PORT, () => {
