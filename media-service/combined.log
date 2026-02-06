@@ -188,3 +188,4 @@
 {"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-02-06T10:33:54.723Z"}
 {"level":"info","message":"Media service running at port: 3003","service":"media-service","timestamp":"2026-02-06T10:33:54.727Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-06T10:33:57.935Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-06T11:48:11.147Z"}

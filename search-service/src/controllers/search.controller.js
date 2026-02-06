@@ -6,7 +6,7 @@ const searchPostController = async (req, res) => {
    try {
       const { query } = req.query
 
-      const results = Search.find(
+      const results = await Search.find(
          {
             $text: { $search: query },
          },
@@ -16,6 +16,11 @@ const searchPostController = async (req, res) => {
       )
          .sort({ score: { $meta: "textScore" } })
          .limit(10)
+
+      res.status(200).json({
+         success: true,
+         results,
+      })
    } catch (error) {
       logger("Error while searching post ", error)
       res.status(500).json({

@@ -163,5 +163,6 @@ app.listen(PORT, () => {
    )
    logger.info(`Post Service is running on ${process.env.POST_SERVICE_URL}`)
    logger.info(`Media Service is running on ${process.env.MEDIA_SERVICE_URL}`)
+   logger.info(`Search Service is running on ${process.env.SEARCH_SERVICE_URL}`)
    logger.info(`Redis url: ${process.env.REDIS_URL}`)
 })

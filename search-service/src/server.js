@@ -8,7 +8,10 @@ const logger = require("./utils/logger")
 const Redis = require("ioredis")
 const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq")
 const searchRouter = require("./routes/search.route")
-const { handlePostCreated } = require("./eventHandlers/search.event.handler")
+const {
+   handlePostCreated,
+   handlePostDeleted,
+} = require("./eventHandlers/search.event.handler")
 
 const app = express()
 const PORT = process.env.PORT || 3002
@@ -31,6 +34,8 @@ app.use((req, res, next) => {
 
 // Implement sensitive IP based rate limiting later
 
+// implement redis caching
+
 app.use("/api/search", searchRouter)
 
 app.get("/", (req, res) => {
@@ -47,8 +52,10 @@ async function startServer() {
 
       await consumeEvent("post.created", handlePostCreated)
 
+      await consumeEvent("post.deleted", handlePostDeleted)
+
       app.listen(PORT, () => {
-         logger.info(`Post service running at port: ${PORT}`)
+         logger.info(`Search service running at port: ${PORT}`)
       })
    } catch (error) {
       logger.error("Failed to connect to server: ", error)

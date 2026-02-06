@@ -6,6 +6,6 @@ const searchRouter = express.Router()
 
 searchRouter.use(authenticateRequest)
 
-searchRouter.post("/post", searchPostController)
+searchRouter.get("/post", searchPostController)
 
 module.exports = searchRouter
