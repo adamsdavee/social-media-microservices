@@ -184,3 +184,7 @@
 {"0":"a","1":"d","10":"v","11":"p","12":"k","13":"3","14":"i","15":"d","16":"4","17":"2","18":"z","19":"a","2":"v","3":"z","4":"h","5":"m","6":"s","7":"d","8":"k","9":"b","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2026-02-06T10:33:10.952Z"}
 {"level":"info","message":"Deleted media 6985c0cb66efab5689da568c associated with post 6985c34d0a6cc185b0856424","service":"media-service","timestamp":"2026-02-06T10:33:11.272Z"}
 {"0":"6","1":"9","10":"6","11":"c","12":"c","13":"1","14":"8","15":"5","16":"b","17":"0","18":"8","19":"5","2":"8","20":"6","21":"4","22":"2","23":"4","3":"5","4":"c","5":"3","6":"4","7":"d","8":"0","9":"a","level":"info","message":"Deletion of media for postId ","service":"media-service","timestamp":"2026-02-06T10:33:11.273Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"media-service","timestamp":"2026-02-06T10:33:54.712Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2026-02-06T10:33:54.723Z"}
+{"level":"info","message":"Media service running at port: 3003","service":"media-service","timestamp":"2026-02-06T10:33:54.727Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"media-service","timestamp":"2026-02-06T10:33:57.935Z"}
