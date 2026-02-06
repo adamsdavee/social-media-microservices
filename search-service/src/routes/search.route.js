@@ -1,19 +1,11 @@
 const express = require("express")
-const {
-   createPost,
-   getAllPosts,
-   getPost,
-   deletePost,
-} = require("../controllers/post.controller")
+const { searchPostController } = require("../controllers/search.controller")
 const { authenticateRequest } = require("../middlewares/auth.middleware")
 
-const postRouter = express.Router()
+const searchRouter = express.Router()
 
-postRouter.use(authenticateRequest)
+searchRouter.use(authenticateRequest)
 
-postRouter.post("/create-post", createPost)
-postRouter.get("/get-post", getAllPosts)
-postRouter.get("/:id", getPost)
-postRouter.delete("/:id", deletePost)
+searchRouter.post("/post", searchPostController)
 
-module.exports = postRouter
+module.exports = searchRouter
