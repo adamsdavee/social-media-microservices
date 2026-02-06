@@ -6,8 +6,9 @@ const cors = require("cors")
 const helmet = require("helmet")
 const logger = require("./utils/logger")
 const Redis = require("ioredis")
-const { connectToRabbitMQ } = require("./utils/rabbitmq")
+const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq")
 const searchRouter = require("./routes/search.route")
+const { handlePostCreated } = require("./eventHandlers/search.event.handler")
 
 const app = express()
 const PORT = process.env.PORT || 3002
@@ -30,15 +31,7 @@ app.use((req, res, next) => {
 
 // Implement sensitive IP based rate limiting later
 
-app.use(
-   "/api/post",
-   (req, res, next) => {
-      req.redisClient = redisClient
-
-      next()
-   },
-   searchRouter,
-)
+app.use("/api/search", searchRouter)
 
 app.get("/", (req, res) => {
    res.send("It is working")
@@ -49,6 +42,10 @@ app.use(errorHandler)
 async function startServer() {
    try {
       await connectToRabbitMQ()
+
+      // consume the events / subscribe to events
+
+      await consumeEvent("post.created", handlePostCreated)
 
       app.listen(PORT, () => {
          logger.info(`Post service running at port: ${PORT}`)
