@@ -358,3 +358,7 @@
 {"level":"info","message":"Received DELETE request to /api/post/6985c34d0a6cc185b0856424","service":"post-service","timestamp":"2026-02-06T10:33:06.604Z"}
 {"level":"info","message":"Request body: [object Object]","service":"post-service","timestamp":"2026-02-06T10:33:06.605Z"}
 {"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2026-02-06T10:33:07.092Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-06T11:48:10.294Z"}
+{"level":"info","message":"Connected to Rabbitmq","service":"post-service","timestamp":"2026-02-06T12:40:35.516Z"}
+{"level":"info","message":"Post service running at port: 3002","service":"post-service","timestamp":"2026-02-06T12:40:35.523Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2026-02-06T12:40:39.812Z"}
