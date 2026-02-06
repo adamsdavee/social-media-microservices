@@ -46,7 +46,7 @@ async function consumeEvent(routingKey, callback) {
       if (msg !== null) {
          const content = JSON.parse(msg.content.toString())
          callback(content)
-         channel.ack(content)
+         channel.ack(msg)
       }
    })
 

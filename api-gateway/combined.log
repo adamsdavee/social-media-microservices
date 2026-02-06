@@ -488,3 +488,14 @@
 {"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2026-02-05T11:09:10.232Z"}
 {"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:09:10.234Z"}
 {"level":"info","message":"Response received from Media-service: 201","service":"api-gateway","timestamp":"2026-02-05T11:09:12.871Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-05T11:16:30.031Z"}
+{"level":"info","message":"Identity Service is running on http://localhost:3001","service":"api-gateway","timestamp":"2026-02-05T11:16:30.038Z"}
+{"level":"info","message":"Post Service is running on http://localhost:3002","service":"api-gateway","timestamp":"2026-02-05T11:16:30.039Z"}
+{"level":"info","message":"Media Service is running on http://localhost:3003","service":"api-gateway","timestamp":"2026-02-05T11:16:30.040Z"}
+{"level":"info","message":"Redis url: redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-05T11:16:30.041Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:17:26.044Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:17:26.046Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at proxyReqOptDecorator (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\src\\server.js:118:45)\n    at decorateProxyReqOpt (C:\\Users\\user\\Documents\\Codes\\Backend-Projects\\social-media-microservices\\api-gateway\\node_modules\\express-http-proxy\\app\\steps\\decorateProxyReqOpts.js:13:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)","service":"api-gateway","timestamp":"2026-02-05T11:17:26.066Z"}
+{"level":"info","message":"Received GET request to /v1/media/get","service":"api-gateway","timestamp":"2026-02-05T11:17:37.816Z"}
+{"level":"info","message":"Request body: undefined","service":"api-gateway","timestamp":"2026-02-05T11:17:37.817Z"}
+{"level":"info","message":"Response received from Media-service: 200","service":"api-gateway","timestamp":"2026-02-05T11:17:38.109Z"}

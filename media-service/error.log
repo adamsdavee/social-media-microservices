@@ -1,1 +1,5 @@
 {"level":"error","message":"Unhandled rejection at [object Promise] reason: MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.","service":"media-service","timestamp":"2026-02-05T08:15:16.141Z"}
+{"http_code":400,"level":"error","message":"Missing required parameter - public_id","name":"Error","service":"media-service","timestamp":"2026-02-06T10:25:29.824Z"}
+{"http_code":400,"level":"error","message":"Missing required parameter - public_id","name":"Error","service":"media-service","timestamp":"2026-02-06T10:25:29.826Z"}
+{"http_code":400,"level":"error","message":"Missing required parameter - public_id","name":"Error","service":"media-service","timestamp":"2026-02-06T10:30:53.074Z"}
+{"http_code":400,"level":"error","message":"Missing required parameter - public_id","name":"Error","service":"media-service","timestamp":"2026-02-06T10:30:53.075Z"}

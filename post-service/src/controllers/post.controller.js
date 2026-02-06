@@ -151,14 +151,14 @@ const deletePost = async (req, res) => {
          })
       }
 
+      await invalidatePostCache(req, id)
+
       // publish post delete methos ->
       await publishEvent("post.deleted", {
          postId: deletedPost._id.toString(),
          userId: req.user.userId,
          mediaIds: deletedPost.mediaIds,
       })
-
-      await invalidatePostCache(req, id)
 
       res.json({
          success: true,
