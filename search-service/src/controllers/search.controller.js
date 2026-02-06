@@ -2,6 +2,7 @@ const Search = require("../models/search.model")
 const logger = require("../utils/logger")
 
 const searchPostController = async (req, res) => {
+   logger.info("Search pos controller endpoint hit...")
    try {
       const { query } = req.query
 
