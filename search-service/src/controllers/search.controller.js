@@ -23,3 +23,5 @@ const searchPostController = async (req, res) => {
       })
    }
 }
+
+module.exports = { searchPostController }
